@@ -35,9 +35,9 @@ git clone https://github.com/romanodev/gce.git /opt/app
 
 
 # Python environment setup
-virtualenv -p python3 /opt/app/gce/env
-source /opt/app/gce/env/bin/activate
-/opt/app/gce/env/bin/pip install -r /opt/app/gce/requirements.txt
+virtualenv -p python3 /opt/app/env
+source /opt/app/env/bin/activate
+/opt/app/env/bin/pip install -r /opt/app/requirements.txt
 
 # Set ownership to newly created account
 chown -R pythonapp:pythonapp /opt/app
