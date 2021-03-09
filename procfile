@@ -1,1 +1,1 @@
-hello: /opt/app/env/bin/gunicorn -b 0.0.0.0:8080 main:server
+hello: /opt/app/env/bin/gunicorn -b 0.0.0.0:8080 main_f:app
